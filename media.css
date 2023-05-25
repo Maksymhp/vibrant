@@ -1,0 +1,256 @@
+@media (max-width:1000px) {
+    .one__info {
+        gap: 1rem;
+    }
+    .one__info-left {
+        padding: 10rem 0rem 10rem 0rem;
+    }
+
+    .one__bg-info {
+        z-index: 5;
+    }
+
+    .one__img-bg {
+        max-height: 28rem;
+    }
+}
+
+@media (max-width:850px) {
+    .one__info {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .one__info-left {
+        padding: 3rem 0;
+    }
+
+    .started__three {
+        gap: 0;
+    }
+    
+    .started__three-left {
+        padding: 2rem 1rem;
+    }
+    .started__right {
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width:760px) {
+    .one__background {
+        margin-bottom: 20rem;
+    }
+    .one__img-bg {
+        width: 60rem;
+        bottom: -20rem;
+    }
+
+    .title {
+        position: sticky;
+        z-index: 1;
+    }
+}
+
+@media (max-width:660px) {
+    
+
+    .nav {
+        padding: 5rem;
+    }
+
+    .header__info {
+        margin-top: 5rem;
+    }
+
+    .menu__btn {
+        width: 5rem;
+        height: 2.3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+
+    .menu__btn span {
+        width: 100%;
+        height: .2rem;
+        background-color: #fff;
+    }
+    .navigation {
+        display: flex;
+        position: absolute;
+        background-color: #0F1012;
+        flex-direction: column;
+        top: 10rem;
+        right: 0;
+        padding: 5rem;
+        z-index: 2;
+        border-radius: 1rem 0 0 1rem;
+        transform: translateY(-200%);
+        transition: .5s;
+    }
+
+   .navigation--active {
+        display: flex;
+        transform: translateY(0%);
+    }
+
+    .started__three {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .started__three-left {
+        padding: 5rem;
+    }
+    .started__right {
+        padding: 5rem;
+    }
+}
+
+@media (max-width:530px){
+
+    .nav {
+        padding: 3rem;
+    }
+
+    .one__bg-info {
+        padding: 5rem 2rem;
+    }
+    .one__img {
+        max-width: 100%;
+    }
+
+    .one__img-bg {
+        max-width: 25rem;
+        bottom: 0;
+    }
+
+    .title {
+        line-height: 6rem;
+        font-size: 4rem;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .input__btn {
+        width: 100%;
+        margin-left: 0;
+        margin-top: .5rem;
+        font-size: 2rem;
+        letter-spacing: 1rem;
+        text-transform: uppercase;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:420px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .one__background {
+        margin-bottom: 0;
+    }
+    .one__img-bg {
+        display: none;
+    }
+    .title {
+        line-height: 4rem;
+    }
+
+    .responses__item {
+        padding: 2rem 0;
+    }
+
+    .started__three-left {
+        padding: 2rem 1rem;
+    }
+    .started__right {
+        padding: 2rem 1rem;
+    }
+
+    .started__btn {
+        padding: 1.5rem 4rem;
+    }
+
+    .footer {
+        margin: 0;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .nav__footer {
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+
+@media (max-width:280px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .logo {
+        max-width: 10rem;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 3rem;
+        align-items: end;
+        padding: 2rem 1rem 0;
+    }
+
+    .title {
+        font-size: 3.5rem;
+    }
+
+    .one__p {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        line-height: 2rem;
+    }
+
+    .text {
+        font-size: 1.8rem;
+    }
+
+    .price {
+        margin: 3rem 0 3rem;
+    }
+
+    .navigation__footer {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    
+}
+
+@media (max-width:200px){
+    .one__title {
+        font-size: 2.2rem;
+        line-height: 3rem;
+        margin-bottom: .5rem;
+    }
+
+    .text {
+        line-height: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+
